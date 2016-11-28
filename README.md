@@ -48,7 +48,7 @@ These steps assume your OpenShift deployment has the default set of ImageStreams
 		$ oc get pods -w
 
 
-	Sample output:  
+	Sample output:
 
 		NAME                       READY     REASON    RESTARTS   AGE
 		dancer-example-1-9d9vh    1/1       Running        0          41s
@@ -59,7 +59,7 @@ These steps assume your OpenShift deployment has the default set of ImageStreams
 
 		$ oc get svc
 
-	Sample output:  
+	Sample output:
 
 		NAME              LABELS                          SELECTOR               IP(S)            PORT(S)
 		dancer-example    template=dancer-example    name=dancer-example    172.30.225.109   8080/TCP
